@@ -86,7 +86,7 @@ FORBIDDEN_FILENAMES = {
 }
 
 FORBIDDEN_CONTENT_MARKERS = [
-    "OPENAI_API_KEY=",
+    "OPENAI_API_KEY" + "=",
     "api_key",
     "auth_token",
     "refresh_token",
