@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-talent-foundry"
+version = "0.1.0"
+description = "Local-first AI talent foundry and agent dataflow runtime"
+readme = "README.ko.md"
+requires-python = ">=3.10"
+authors = [{ name = "22B" }]
+dependencies = []
+
+[project.scripts]
+ai22b-talent-foundry = "ai22b.talent_foundry.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

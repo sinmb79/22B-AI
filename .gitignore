@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local secrets and private data
+.env
+.env.*
+*.key
+*.pem
+AGENTS.md
+docs/log.md
+data/private/*
+!data/private/.gitkeep
+
+# Generated artifacts
+node_modules/
+dist/
+target/
+runs/*
+!runs/.gitkeep
+apps/*/runs/*
+!apps/*/runs/.gitkeep
+models/base/*
+!models/base/.gitkeep
+models/adapters/*
+!models/adapters/.gitkeep
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+!models/checkpoints/tiny_bigram_seed.json
+data/processed/*
+!data/processed/.gitkeep
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
